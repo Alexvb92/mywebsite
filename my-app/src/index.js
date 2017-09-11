@@ -3,15 +3,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
+import store from './store'
 
-const state = {
-    sections: [
-        {id: 1, name: 'about', isSelected: true},
-        {id: 2, name: 'portfolio', isSelected: false},
-        {id: 3, name: 'contact', isSelected: false}
-    ]
-}
+const state = store.getState();
 
 
-ReactDOM.render(<App data-sections={state.sections} />, document.getElementById('root'));
+ReactDOM.render(<App {...state} />, document.getElementById('root'));
 registerServiceWorker();

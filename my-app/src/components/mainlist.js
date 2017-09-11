@@ -12,8 +12,8 @@ const Thelinks = ({id, name, isSelected}) => (
 export default (props) => (
 
     <div className="mainlist">
-        {console.log(props["data-sections"].props["data-sections"])}
-        {props["data-sections"].props["data-sections"].map(section => <Thelinks key={section.id} {...section} />)}
+        {console.log(props)}
+        {props['data-sections'].props.sections.map(section => <Thelinks key={section.id} {...section} />)}
     </div>
 
 )
