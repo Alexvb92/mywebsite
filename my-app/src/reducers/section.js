@@ -1,8 +1,10 @@
 const initState = {
     sections:[
-        {id: 1, name:'About', isSelected: true},
-        {id: 2, name:'Portfolio', isSelected: false},
-        {id: 3, name:'Contact', isSelected: false}]
+            {id: 1, name:'About', isSelected: true},
+            {id: 2, name:'Portfolio', isSelected: false},
+            {id: 3, name:'Contact', isSelected: false}
+        ],
+        currentSection: 'temp'
 }
 export default (state = initState, action) => {
     switch(action.type) {
