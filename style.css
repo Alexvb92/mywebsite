@@ -256,8 +256,21 @@ color: #D33C2A;
     font-color: #666;
     opacity: .5;
 }
+
+.cont1 .smallertext {
+  font-size: 12px;
+    letter-spacing: normal;
+    font-weight: normal;
+}
 .contyinfo {
   font-size: 10px;
+
+}
+
+
+#bkimg {
+  height:125;
+  width: auto;
 }
 
 @media only screen and (min-width: 639px){
