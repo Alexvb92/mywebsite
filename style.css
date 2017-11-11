@@ -8,6 +8,12 @@ body {
     font-size: .8em;
 }
 
+a {
+ color: black;
+}
+a:hover{
+  color: #D33C2A;
+}
 .listy1:hover {
 /*
     background-color: #D33C2A;*/
@@ -20,7 +26,9 @@ body {
   transition:.5s;
 }
 
-
+.abbouter {
+  margin-bottom: 25px;
+}
 .mainlist {
     position: fixed;
     top: 0px;
@@ -31,6 +39,10 @@ body {
 
 }
 
+.abtsmall {
+  margin-top: 25px;
+  text-align: left;
+}
 
 .links1 {
     top: 25%;
@@ -49,7 +61,8 @@ body {
 
 .javaimg {
     height: 160px;
-    width: auto;
+    width: 160px;
+    margin-left: 25%;
 }
 
 .nomargin {
@@ -458,9 +471,24 @@ color: #D33C2A;
 
 .resume {
   margin-top: 25px;
+  text-align: center;
   position: fixed; /* or absolute */
-  top: 66.666%;
-  left: 48%;
+  top: 15%;
+  left: 47%;
+  text-indent: 0.7rem;
+    letter-spacing: .7rem;
+  border-bottom: 1px solid black;
+}
+
+.resume1 {
+  margin-top: 25px;
+  text-align: center;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 47%;
+  text-indent: 0.7rem;
+    letter-spacing: .7rem;
+  border-bottom: 1px solid black;
 }
 
 @media only screen and (min-width: 639px){
@@ -489,8 +517,16 @@ color: #D33C2A;
 @media only screen and (max-width: 993px) {
 
   .resume {
-    top: 10%;
-      left: 43%;
+      top: 8%;
+      left: 33.333%;
+      margin-bottom: 25px;
+      text-indent: initial;
+      }
+        .resume1 {
+      top: 8%;
+      left: 33.333%;
+      margin-bottom: 25px;
+      text-indent: initial;
       }
     .cont1 {
       margin-top: 25px;
@@ -532,6 +568,9 @@ color: #D33C2A;
     display: none;
     }
 
+    .javaimg {
+    margin-left: 0;
+}
 
 }
 
