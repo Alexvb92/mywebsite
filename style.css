@@ -12,7 +12,14 @@ body {
 /*
     background-color: #D33C2A;*/
     color: #D33C2A;
+      -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
 }
+
 
 .mainlist {
     position: fixed;
@@ -20,6 +27,7 @@ body {
     left: 0px;
     bottom: 0px;
     font-size: 21px;
+    z-index: 5;
 
 }
 
@@ -36,8 +44,7 @@ body {
 
 .dispnest {
     position: relative;
-    top:15%;
-    left:10%;
+
 }
 
 .javaimg {
@@ -50,45 +57,18 @@ body {
 }
 
 
-.nothing {
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+.gendiv {
+    text-align: center;
+    margin-top: 75px;
+
+}
+
+.icons {
+    font-size: 4rem;
+
 }
 
 
-@media only screen and (max-width: 640px) {
-
-    .mainlist {
-        width: 100%;
-        position: relative;
-
-    }
-
-    .links1 {
-        transform: none;
-        width: 100%;
-        position: relative;
-
-    }
-
-    .listy1 {
-        text-align: center;
-        width:31.5%;
-        padding-top: 10px;
-        display: inline-block;
-    }
-
-    .dispnest {
-    position: fixed;
-    top: 15%;
-    left: auto;
-    width: 100%;
-    }
-
-}
 
 
 @keyframes fadein {
@@ -120,147 +100,213 @@ body {
     to   { opacity: 1; }
 }
 
-.gendiv {
-    text-align: center;
-}
-
-.icons {
-    font-size: 4rem;
-
-}
-
-
-@-webkit-keyframes flipInX {
-  from {
-    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
-    -webkit-animation-timing-function: ease-in;
-    opacity: 0;
-  }
-
-  40% {
-    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
-    -webkit-animation-timing-function: ease-in;
-  }
-
-  60% {
-    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
-
-  }
-
-  80% {
-    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
-  }
-
-  to {
-    transform: perspective(400px);
-    opacity: 1;
-
-  }
-}
-
-.flipInX1 {
-  -webkit-animation: flipInX 1s;
+.fadein1 {
+  -webkit-animation: fadein 1s;
   -webkit-animation-delay: 0s;
+  -webkit-animation-fill-mode: backwards;
 
 }
-.flipInX2 {
-    -webkit-animation: flipInX 1s;
+.fadein2 {
+    -webkit-animation: fadein 1s;
   -webkit-animation-delay: 0.1s;
+  -webkit-animation-fill-mode: backwards;
 
 }
-.flipInX3 {
-    -webkit-animation: flipInX 1s;
+.fadein3 {
+    -webkit-animation: fadein 1s;
   -webkit-animation-delay: 0.2s;
+  -webkit-animation-fill-mode: backwards;
+
 
 }
-.flipInX4 {
-    -webkit-animation: flipInX 1s;
+.fadein4 {
+    -webkit-animation: fadein 1s;
   -webkit-animation-delay: 0.3s;
-
+-webkit-animation-fill-mode: backwards;
 }
-.flipInX5 {
-    -webkit-animation: flipInX 1s;
+.fadein5 {
+    -webkit-animation: fadein 1s;
   -webkit-animation-delay: 0.4s;
-
+-webkit-animation-fill-mode: backwards;
 }
-.flipInX6 {
-    -webkit-animation: flipInX 1s;
+.fadein6 {
+    -webkit-animation: fadein 1s;
   -webkit-animation-delay: 0.5s;
-
+-webkit-animation-fill-mode: backwards;
 }
-.flipInX7 {
-    -webkit-animation: flipInX 1s;
+.fadein7 {
+    -webkit-animation: fadein 1s;
   -webkit-animation-delay: 0.6s;
-
+-webkit-animation-fill-mode: backwards;
 }
-.flipInX8 {
-    -webkit-animation: flipInX 1s;
+.fadein8 {
+    -webkit-animation: fadein 1s;
   -webkit-animation-delay: 0.7s;
-
+-webkit-animation-fill-mode: backwards;
 }
-.flipInX9 {
-    -webkit-animation: flipInX 1s;
+.fadein9 {
+    -webkit-animation: fadein 1s;
   -webkit-animation-delay: 0.8s;
-
+-webkit-animation-fill-mode: backwards;
 }
-.flipInX10 {
-    -webkit-animation: flipInX 1s;
+.fadein10 {
+    -webkit-animation: fadein 1s;
   -webkit-animation-delay: 0.9s;
-
+-webkit-animation-fill-mode: backwards;
 }
-.flipInX11 {
-    -webkit-animation: flipInX 1s;
+.fadein11 {
+    -webkit-animation: fadein 1s;
   -webkit-animation-delay: 1s;
-
+-webkit-animation-fill-mode: backwards;
 }
-.flipInX12 {
-    -webkit-animation: flipInX 1s;
+.fadein12 {
+    -webkit-animation: fadein 1s;
   -webkit-animation-delay: 1.1s;
-
+-webkit-animation-fill-mode: backwards;
 }
-.flipInX13 {
-    -webkit-animation: flipInX 1s;
+.fadein13 {
+    -webkit-animation: fadein 1s;
   -webkit-animation-delay: 1.2s;
-
+-webkit-animation-fill-mode: backwards;
 }
-.flipInX14 {
-    -webkit-animation: flipInX 1s;
+.fadein14 {
+    -webkit-animation: fadein 1s;
   -webkit-animation-delay: 1.3s;
+-webkit-animation-fill-mode: backwards;
+}
+
+
+
+.github {
+  background-image: url(./assets/images/Githubicon.png);
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+   background-position: center;
 
 }
 
-.container1 {
-  width: 200px;
-  height: 260px;
-  position: relative;
-  perspective: 800px;
+.github:hover {
+  background-image: url(./assets/images/Githubiconred.png);
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+   background-position: center;
+
 }
 
-#card {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  transform-style: preserve-3d;
-  transition: transform 1s;
+.linkedin {
+  background-image: url(./assets/images/Linkedin-icon.png);
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+   background-position: center;
+
 }
 
-#card i {
-  margin: 0;
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
+.linkedin:hover {
+  background-image: url(./assets/images/Linkedin-iconred.png);
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+   background-position: center;
+
+
 }
 
-#card .front {
-  background: red;
-}
-#card .back {
-  background: blue;
-  transform: rotateY( 180deg );
+.stackoverflow {
+  background-image: url(./assets/images/stackoverflow.png);
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+   background-position: center;
+
 }
 
-#card:hover {
-  transform: rotateY( 180deg );
+.stackoverflow:hover {
+  background-image: url(./assets/images/stackoverflowred.png);
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+   background-position: center;
+
+
+}
+
+.active {
+
+color: #D33C2A;
+}
+
+.cont1 {
+  letter-spacing: .75rem;
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.smallertext {
+    font size: 12px;
+    font-color: #666;
+    opacity: .5;
+}
+.contyinfo {
+  font-size: 10px;
+}
+
+@media only screen and (min-width: 639px){
+  .row .col.offset-m2 {
+      margin-left: 13%;
+  }
+}
+
+@media only screen and (min-width: 639px){
+
+  .row .col.offset-m3 {
+      margin-left: 22%;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 640px) {
+
+    .mainlist {
+        width: 100%;
+        position: relative;
+
+    }
+
+    .links1 {
+        transform: none;
+        width: 100%;
+        position: relative;
+
+    }
+
+    .listy1 {
+        text-align: center;
+        width:31.5%;
+        padding-top: 10px;
+        display: inline-block;
+    }
+
+    .gendiv {
+      margin-top: 0px;
+    }
+
+    .dispnest {
+    position: fixed;
+    top:15%;
+    width: 100%;
+    }
+
+
 }
