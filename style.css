@@ -465,7 +465,7 @@ color: #D33C2A;
   margin-top: 25px;
   position: fixed; /* or absolute */
   top: 33.333%;
-  left: 50%;
+  left: 48%;
     font-size: 21px;
 }
 
@@ -474,7 +474,7 @@ color: #D33C2A;
   text-align: center;
   position: fixed; /* or absolute */
   top: 15%;
-  left: 47%;
+  left: 45%;
   text-indent: 0.7rem;
     letter-spacing: .7rem;
   border-bottom: 1px solid black;
@@ -485,7 +485,7 @@ color: #D33C2A;
   text-align: center;
   position: fixed; /* or absolute */
   top: 50%;
-  left: 47%;
+  left: 45%;
   text-indent: 0.7rem;
     letter-spacing: .7rem;
   border-bottom: 1px solid black;
