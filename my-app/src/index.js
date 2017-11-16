@@ -16,6 +16,7 @@ render()
 
 store.subscribe(render)
 
+
 // setTimeout(() => {
 
 // store.dispatch({type: 'SECTION_ADD', payload: {id: 4, name: 'new view', isSelected: false}})

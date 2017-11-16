@@ -9,11 +9,9 @@ const Thelinks = ({id, name, isSelected}) => (
     </div>
 )
 
-export default (props) => (
-
     <div className="mainlist">
         {console.log(this)}
-        {props['data-sections'].props.sections.map(section => <Thelinks key={section.id} {...section} />)}
+        {props['data-sections'].props.sections.map(section => <Thelinks key={section.id} {...section} onclick="logthis()" />)}
     </div>
 
 )
