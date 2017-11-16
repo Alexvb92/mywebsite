@@ -14,7 +14,7 @@ const Portfolio = () =>
                     <div className='col s12 smallertext'>
                        ToGo.herokuapp.com
                     </div>
-                    <img id='bkimg' src='./assets/images/togogrey.png' />
+                    <img id='bkimg' src={require('../../assets/images/togogrey.png')} />
                  </div>
               </a>
               <a href='http://broadkillbeachhouse.com/' target='_blank'>
@@ -22,7 +22,7 @@ const Portfolio = () =>
                     <div className='col s12 smallertext'>
                        Broadkillbeachhouse.com
                     </div>
-                    <img id='bkimg' src='./assets/images/broadkillgrey.png' />
+                    <img id='bkimg' src={require('../../assets/images/broadkillgrey.png')} />
                  </div>
               </a>
            </div>
@@ -30,7 +30,7 @@ const Portfolio = () =>
               &amp;&amp;
            </div>
            <div className='resume listy1'>
-              <a href='./assets/Resume-for-Alexander-von-Bredow.pdf' >
+              <a href='../../assets/Resume-for-Alexander-von-Bredow.pdf' >
                  Resume
               </a>
            </div>

@@ -2,20 +2,29 @@ import React from "react";
 
 const Contact = () =>
   <div>
-    <h1>Contact Page</h1>
-    <p>
-      Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-      molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-      magna a ultrices. Aenean pellentesque placerat lacus imperdiet efficitur.
-      In felis nisl, luctus non ante euismod, tincidunt bibendum mi. In a
-      molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna posuere,
-      eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque
-      nec metus vestibulum, egestas massa eu, sollicitudin ipsum. Nulla
-      facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh dictum
-      ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia
-      nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus.
-      Etiam vel condimentum magna, quis tempor nulla.
-    </p>
-  </div>;
+    <div class='gendiv container'>
+    <br />
+    <div class='row'>
+       <div class='cont1 col m6 s12 offset-m3'>Contact Me:</div>
+    </div>
+    <div class='row'>
+       <div class='smallertext col s12 m6 offset-m3'>Feel free to send me an email <br /> or reach out to me on linkedin.</div>
+    </div>
+    <div class='row center-align'>
+       <a href='https://stackoverflow.com/users/8922460/'>
+          <div class='stackoverflow center col s4 m1 offset-m4'></div>
+       </a>
+       <a href='https://github.com/Alexvb92'>
+          <div class='github center col s4 m1'></div>
+       </a>
+       <a href='https://www.linkedin.com/in/alexander-von-bredow-783885a9/'>
+          <div class='linkedin center col s4 m1'></div>
+       </a>
+    </div>
+    <div class='row center-align'>
+      <div class='col s12 m6 offset-m3 contyinfo'> Alexander von Bredow | alvb92@gmail.com</div>
+    </div>
+  </div>
+</div>
 
 export default Contact;
