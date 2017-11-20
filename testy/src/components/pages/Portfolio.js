@@ -5,62 +5,94 @@ const Portfolio = () =>
   <div className='gendiv'>
      <div className='container'>
         <div className='row'>
-           <div className='cont1 col s12 m6'>
+           <div className='cont1 col s12 l6'>
               <div className='col s12'>
                  Portfolio
               </div>
-              <a href='http://to-go.herokuapp.com/' target='_blank'>
-                 <div className='togo col s12'>
-                    <div className='col s12 smallertext'>
-                       ToGo.herokuapp.com
-                    </div>
-                    <img id='bkimg' src={require('../../assets/images/togogrey.png')} />
-                 </div>
-              </a>
-              <a href='http://broadkillbeachhouse.com/' target='_blank'>
-                 <div className='broadkill col s12'>
-                    <div className='col s12 smallertext'>
-                       Broadkillbeachhouse.com
-                    </div>
-                    <img id='bkimg' src={require('../../assets/images/broadkillgrey.png')} />
-                 </div>
-              </a>
+              <div className='row'>
+                <a href='http://to-go.herokuapp.com/' target='_blank'>
+                   <div className='togo col s12 l6'>
+                      <div className='col s12 smallertext'>
+                         ToGo.herokuapp.com
+                      </div>
+                      <img id='bkimg' src={require('../../assets/images/togogrey.png')} />
+                   </div>
+                </a>
+                <a href='http://broadkillbeachhouse.com/' target='_blank'>
+                   <div className='broadkill col s12 l6'>
+                      <div className='col s12 smallertext'>
+                         Broadkillbeachhouse.com
+                      </div>
+                      <img id='bkimg' src={require('../../assets/images/broadkillgrey.png')} />
+                   </div>
+                </a>
+              </div>
            </div>
-           <div className='listy1 aander'>
-              &amp;&amp;
-           </div>
-           <div className='resume listy1'>
-              <a href='../../assets/Resume-for-Alexander-von-Bredow.pdf' >
-                 Resume
-              </a>
-           </div>
-           <div className='col s12 m6'>
+           <div className='col s12 l6'>
               <div className='row center nomargin'>
-                 <div className='row cont1'>
+                  <div className='row cont1'>
                     Skills
+                  </div>
+                </div>
+              <div className='row center margtop'>
+                <div className='col s2 fadein1 javascript1' alt='Javascript'>
+                  <div className='hoverer center-align'>JavaScript
+                  </div>
+                </div>
+                <div className='col s2  fadein2 html1'>
+                  <div className='hoverer center-align'>
+                    HTML5
+                  </div>
+                </div>
+                <div className='col s2 fadein3 css1'>
+                  <div className='hoverer center-align'>
+                    CSS3
+                  </div>
+                </div>
+                <div className='col s2 fadein4 jquery1'>
+                  <div className='hoverer center-align'>Jquery
+                  </div>
+                </div>
+                <div className='col s2 fadein5 git1'>
+                  <div className='hoverer center-align'>
+                    Git
+                  </div>
+                </div>
+                <div className='col s2 fadein5 git1'>
+                  <div className='hoverer center-align'>
+                    Git
+                  </div>
+                </div>
+              </div>
+              <div className='row center '>
+                <div className='col s2 leftmarg fadein6 react1'>
+                  <div className='hoverer center-align'>
+                    React
+                  </div>
+                </div>
+                <div className='col s2 fadein7 mongo1'>
+                  <div className='hoverer center-align'>
+                    MongoDB
+                  </div>
+                </div>
+                <div className='col s2 fadein8 sql1'>
+                  <div className='hoverer center-align'>
+                    MySQL
+                  </div>
+                </div>
+                <div className='col s2 fadein9 node1'>
+                  <div className='hoverer center-align'>Node
+                  </div>
+                </div>
+                <div className='col s2 fadein9 node1'>
+                  <div className='hoverer center-align'>Node
+                  </div>
+                </div>
+                <div className='col s2 fadein10 python1'>
+                  <div className='hoverer center-align'>
+                    Python
+                  </div>
                  </div>
-                 <i className='icons fadein6 devicon-webpack-plain' alt='Webpack'></i>
-                 <i className='icons fadein7 devicon-jquery-plain'></i>
-              </div>
-              <div className='row center nomargin'>
-                 <i className='icons fadein5 devicon-react-original'></i>
-                 <i className='icons fadein1 devicon-javascript-plain'></i>
-                 <i className='icons fadein8 devicon-html5-plain'></i>
-              </div>
-              <div className='row center nomargin'>
-                 <i className='icons fadein14 devicon-css3-plain'></i>
-                 <i className='icons fadein4 devicon-bootstrap-plain'></i>
-                 <i className='icons fadein2 devicon-nodejs-plain'></i>
-                 <i className='icons fadein9 devicon-git-plain'></i>
-              </div>
-              <div className='row center nomargin'>
-                 <i className='icons fadein13 devicon-mongodb-plain'></i>
-                 <i className='icons fadein3 devicon-atom-original'></i>
-                 <i className='icons fadein10 devicon-heroku-original'></i>
-              </div>
-              <div className='row center nomargin'>
-                 <i className='icons fadein12 devicon-mocha-plain'></i>
-                 <i className='icons fadein11 devicon-sequelize-plain'></i>
               </div>
            </div>
         </div>
