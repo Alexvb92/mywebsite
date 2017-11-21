@@ -54,7 +54,7 @@ a:hover{
 }
 
 .links1 {
-    top: 27%;
+    margin-top: 175px;
     position: relative;
     transform: translate(25%, 0%)
 }
@@ -679,6 +679,7 @@ color: #D33C2A;
         transform: none;
         width: 100%;
         position: relative;
+        margin-top: 0px;
 
     }
 
@@ -710,5 +711,3 @@ color: #D33C2A;
 
 
 }
-
-

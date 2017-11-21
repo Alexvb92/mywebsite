@@ -11,7 +11,7 @@ const Portfolio = () =>
               </div>
               <div className='row'>
                 <a href='http://to-go.herokuapp.com/' target='_blank'>
-                   <div className='togo col s12 l6'>
+                   <div className='togo col s12 m6 l6'>
                       <div className='col s12 smallertext'>
                          ToGo.herokuapp.com
                       </div>
@@ -19,7 +19,7 @@ const Portfolio = () =>
                    </div>
                 </a>
                 <a href='http://broadkillbeachhouse.com/' target='_blank'>
-                   <div className='broadkill col s12 l6'>
+                   <div className='broadkill col s12 m6 l6'>
                       <div className='col s12 smallertext'>
                          Broadkillbeachhouse.com
                       </div>
