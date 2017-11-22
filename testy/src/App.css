@@ -71,7 +71,6 @@ a:hover{
 .javaimg {
     height: 160px;
     width: 160px;
-    margin-left: 25%;
 }
 
 .nomargin {
@@ -615,12 +614,9 @@ color: #D33C2A;
 .resume1 {
 
   text-align: center;
-  position: fixed; /* or absolute */
-  top: 55%;
-  left: 45%;
-  text-indent: 0.7rem;
-    letter-spacing: .7rem;
-  border-bottom: 1px solid black;
+    font size: 12px;
+    font-color: #666;
+    opacity: .5;
 }
 
 @media only screen and (min-width: 639px){
