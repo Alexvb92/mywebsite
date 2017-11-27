@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Navpills from "./Navpills";
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import '../assets/materialize/css/materialize.min.css';
 import "../App.css";
@@ -21,8 +20,8 @@ class Portfoliomain extends Component {
       return <About />;
     } else if (this.state.currentPage === "Portfolio") {
       return <Portfolio />;
-    } else if (this.state.currentPage === "Blog") {
-      return <Blog />;
+    } else if (this.state.currentPage === "Contact") {
+      return <Contact />;
     } else {
       return <Contact />;
     }

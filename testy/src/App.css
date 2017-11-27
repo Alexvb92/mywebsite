@@ -45,18 +45,18 @@ a:hover{
     bottom: 0px;
     font-size: 21px;
     z-index: 5;
+    margin-top: 10%;
 
 }
 
 .abtsmall {
-  margin-top: 25px;
-  text-align: left;
+  text-align: justify;
 }
 
 .links1 {
-    margin-top: 175px;
+    margin-top:70px;
     position: relative;
-    transform: translate(25%, 0%)
+    transform: translate(45%, 0%)
 }
 
 .listy1 {
@@ -80,7 +80,7 @@ a:hover{
 
 .gendiv {
     text-align: center;
-    margin-top: 95px;
+    margin-top: 10%;
 
 }
 
@@ -473,6 +473,27 @@ a:hover{
 
 }
 
+.amazonwebservices1 {
+  background-image: url(./assets/images/amazonwebservices.png);
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+   background-position: center;
+
+}
+
+.linux1 {
+  background-image: url(./assets/images/linux.png);
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+   background-position: center;
+
+}
+
+
 .github {
   background-image: url(./assets/images/Githubicon.png);
   width: 50px;
@@ -482,6 +503,7 @@ a:hover{
    background-position: center;
 
 }
+
 
 
 
@@ -665,6 +687,7 @@ color: #D33C2A;
     .mainlist {
         width: 100%;
         position: relative;
+        margin-top: 0;
 
     }
     .col.s12.m4 {

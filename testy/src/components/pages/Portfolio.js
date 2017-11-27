@@ -58,9 +58,9 @@ const Portfolio = () =>
                     Git
                   </div>
                 </div>
-                <div className='col s2 fadein5 git1'>
+                <div className='col s2 fadein5 linux1'>
                   <div className='hoverer center-align'>
-                    Git
+                    Linux
                   </div>
                 </div>
               </div>
@@ -84,8 +84,9 @@ const Portfolio = () =>
                   <div className='hoverer center-align'>Node
                   </div>
                 </div>
-                <div className='col s2 fadein9 node1'>
-                  <div className='hoverer center-align'>Node
+                <div className='col s2 fadein9 amazonwebservices1'>
+                  <div className='hoverer center-align'>
+                  Amazon Web Services
                   </div>
                 </div>
                 <div className='col s2 fadein10 python1'>
