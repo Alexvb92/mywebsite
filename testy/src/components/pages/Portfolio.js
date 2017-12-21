@@ -13,9 +13,9 @@ const Portfolio = () =>
                 <a href='http://to-go.herokuapp.com/' target='_blank'>
                    <div className='togo col s12 m6 l6'>
                       <div className='col s12 smallertext'>
-                         ToGo.herokuapp.com
+                         ToGo: Trip Planner
                       </div>
-                      <img id='bkimg' src={require('../../assets/images/togogrey.png')} />
+                      <img id='bkimg' src={require('../../assets/images/togogrey.png')} alt='To Go'/>
                    </div>
                 </a>
                 <a href='http://broadkillbeachhouse.com/' target='_blank'>
@@ -23,7 +23,7 @@ const Portfolio = () =>
                       <div className='col s12 smallertext'>
                          Broadkillbeachhouse.com
                       </div>
-                      <img id='bkimg' src={require('../../assets/images/broadkillgrey.png')} />
+                      <img id='bkimg' src={require('../../assets/images/broadkillgrey.png')} alt='Broadkill Beach House'/>
                    </div>
                 </a>
               </div>
@@ -58,38 +58,38 @@ const Portfolio = () =>
                     Git
                   </div>
                 </div>
-                <div className='col s2 fadein5 linux1'>
+                <div className='col s2 fadein6 linux1'>
                   <div className='hoverer center-align'>
                     Linux
                   </div>
                 </div>
               </div>
               <div className='row center '>
-                <div className='col s2 leftmarg fadein6 react1'>
+                <div className='col s2 leftmarg fadein1 react1'>
                   <div className='hoverer center-align'>
                     React
                   </div>
                 </div>
-                <div className='col s2 fadein7 mongo1'>
+                <div className='col s2 fadein2 mongo1'>
                   <div className='hoverer center-align'>
                     MongoDB
                   </div>
                 </div>
-                <div className='col s2 fadein8 sql1'>
+                <div className='col s2 fadein3 sql1'>
                   <div className='hoverer center-align'>
                     MySQL
                   </div>
                 </div>
-                <div className='col s2 fadein9 node1'>
+                <div className='col s2 fadein4 node1'>
                   <div className='hoverer center-align'>Node
                   </div>
                 </div>
-                <div className='col s2 fadein9 amazonwebservices1'>
-                  <div className='hoverer center-align'>
+                <div className='col s2 fadein5 amazonwebservices1'>
+                  <div className='hovereraws center-align'>
                   Amazon Web Services
                   </div>
                 </div>
-                <div className='col s2 fadein10 python1'>
+                <div className='col s2 fadein6 python1'>
                   <div className='hoverer center-align'>
                     Python
                   </div>
